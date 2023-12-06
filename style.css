@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+  display: flex;
+  background-image: url("abtbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: start;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  align-items: end;
+  justify-content: flex-end;
+  padding: 32px 15%;
+  background: transparent;
+  transition: all ease .45s;
+}
+
+nav li{
+  display: inline-block;
+  list-style: none;
+  padding: 0px 20px;
+}
+
+a,button{
+  font-size: 16px;
+  font-weight: 500;
+  color:#fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+nav li a:hover{
+  color:#000000;
+  transition: all 0.4s ease 0s;
+}
+
+.home{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  margin-left: 750px;
+  padding: 0 10%;
+}
+
+.home-content{
+  max-width: 600px;
+}
+
+.home-content h1{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.home-content h3{
+  font-size: 20px;
+  font-weight: 700;
+  color: rgba(57, 3, 74, 0.686);
+}
+
+.home-content p{
+  font-size: 16px;
+}
+
+

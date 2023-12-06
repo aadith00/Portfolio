@@ -1,0 +1,67 @@
+.education .heading{
+    font-size: 36px;
+    color: #eee;
+    font-family: 'Bodoni Moda', serif;
+    margin-top: 60px;
+}
+
+.body{
+    background-image: url('abtbg.png');
+    background-size: cover;
+}
+
+.education .box-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    padding-left: 3rem;
+    padding-left: 300px;
+    margin-top: 100px;
+    
+}
+
+.education .box-container .box{
+    width:27rem;
+    margin:4rem 1 rem;
+    padding-left: 4rem;
+    border-left: .2rem solid #ffffff;
+    position: relative;
+
+}
+
+.education .box-container .box span{
+    font-size: 1.4rem;
+    background: #000000;
+    color:#fff;
+    border-radius: 5rem;
+    padding: .5rem 2.5rem;
+
+}
+
+.education .box-container .box h3{
+    font-size: 1.6rem;
+    color:#ffffff;
+    padding-top: 1.5rem; 
+}
+
+.education .box-container .box p{
+    color:#eee;
+    padding: 1rem 0; 
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 17px;
+}
+
+.education .box-container .box i{
+    position: absolute;
+    top:-1.5rem; left:-1.8rem;
+    height:3.1rem;
+    width:3.1rem;
+    border-radius: 50%;
+    line-height: 3.7rem;
+    text-align: center;
+    font-size: 1.12rem;
+    color:rgb(0, 0, 0);
+    background:yellow;
+}

@@ -10,8 +10,8 @@
     </ul>
 </nav>
 
-</header>
+</header >
 
-<div style="margin-top: 300px ; margin-left: 300px;">
-<h1>Aadith Joseph Mathew</h1>
-</div>
+    <div style="margin-top: 300px ; margin-left: 300px;">
+        <h1>Aadith Joseph Mathew</h1>
+    </div>
